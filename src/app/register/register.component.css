@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+form{
+    /* height: 100vh; */
+    color: rgb(240, 241, 241);
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/19/12/28/rock-2658355_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    color: black;
+}
+button,select,option,label{
+    color: black;
+}
+::placeholder{
+    color:black ;
+}
+
+h3{
+    text-align: center;
+    color: rgb(252, 154, 8);
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form{
+    padding:3%;
+}
+button{
+    margin-top: 3%;
+    background-color: orange;
+    border-color: rgb(246, 157, 33);
+    
+}
+
+button:hover{
+    background-color: orangered;
+    color: black;
+    border-color: rgb(255, 81, 0);
+}
+
+.sub-but{
+    display: grid;
+   width: 100%;
+   place-items:center;
+  
+}
+
+
+.back{
+    width: 15%;
+   
+}
